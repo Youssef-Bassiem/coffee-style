@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import "../styles/Cards.css";
 
 const Cards = () => {
   const [cardsData] = useState([
@@ -28,7 +29,7 @@ const Cards = () => {
         return (
           <>
             <img src={url} alt="" width={"500px"} />
-            <button>READ THE FULL STORY</button>
+            <button class="demo">READ THE FULL STORY</button>
             <button>{link}</button>
             <p>{text}</p>
             <p>{time}</p>
