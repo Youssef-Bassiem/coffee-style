@@ -17,7 +17,7 @@ const Content = () => {
         line of blind text by the name of Lorem<br/> Ipsum decided to leave for the
         far World of Grammar.
       </p>
-      <a href="@">Read the full Story</a>
+      <a href="@" class="story">Read the full Story</a>
       <p class="third-para">FEATURED MUGS</p>
       <FeaturedMugs />
       <MoreProducts />
