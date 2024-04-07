@@ -15,11 +15,14 @@ const Mug = ({ url, isSale, name, price, sale }) => {
       <br />
       <a href="@" target="_blank" class="muglink">
         {name}
-      </a>
-      <p>${price}USD</p>
-      <p style={{ display: isSale ? "block" : "none" }}>${sale}USD</p>
+      </a>      
+      <div class="price">
+        <p class="salePrice" style={{ display: isSale ? "inline" : "none" }}>${sale}USD</p>
+        <p class="basicPrice">${price}USD</p>
+      </div>
     </div>
   );
 };
+
 
 export default Mug;
