@@ -1,7 +1,8 @@
 import React from "react";
 import Mug from "./Mug";
 import { useState } from "react";
-import "../styles/MoreProducts.css"
+import "../styles/MoreProducts.css";
+import "../styles/Content.css";
 
 const MoreProducts = () => {
   const [mugsData] = useState([
@@ -64,7 +65,7 @@ const MoreProducts = () => {
   ]);
   return (
     <div class="moreProductsSection">
-      <p class="moreProductsTitle">MORE PRODUCTS</p>
+      <p class="third-para">MORE PRODUCTS</p>
       <br />
       <div class="moreProducts">
       {mugsData.map(({ url, name, price, sale, isSale }) => {
