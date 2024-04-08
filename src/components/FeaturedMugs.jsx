@@ -1,7 +1,7 @@
 import React from "react";
 import Mug from "./Mug";
 import { useState } from "react";
-
+import "../styles/FeaturedMugs.css";
 const FeaturedMugs = () => {
   const [mugsData] = useState([
     {
@@ -19,10 +19,10 @@ const FeaturedMugs = () => {
     },
   ]);
   return (
-    <>
+    <div class="featured">
       {mugsData.map(({ url, name, price, sale, isSale }) => {
         return (
-          <Mug
+          <Mug 
             url={url}
             name={name}
             price={price}
@@ -31,7 +31,7 @@ const FeaturedMugs = () => {
           />
         );
       })}
-    </>
+    </div>
   );
 };
 

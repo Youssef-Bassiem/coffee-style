@@ -1,0 +1,35 @@
+.first-para {
+  font-size: 27px;
+  color: #292b38;
+  margin-bottom: 18px;
+}
+
+.second-para {
+  margin-top: 0%;
+  font-size: 15px;
+  color: #6d7696;
+  line-height: 30px;
+}
+
+.story {
+  color: #aa6f5f;
+  text-decoration: none;
+  padding: 2px;
+  border-bottom: 2px solid #eee3df;
+}
+
+a:hover {
+  border-color: #aa6f5f;
+}
+
+
+.third-para {
+  margin-top: 0%;
+  font-size: 12px;
+  color: #6d7696;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}

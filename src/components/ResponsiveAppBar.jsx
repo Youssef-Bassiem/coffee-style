@@ -42,7 +42,7 @@ function ResponsiveAppBar() {
             src="./CoffeeStyle Logo.png"
             href="#app-bar-with-responsive-menu"
             sx={{
-              width: "15%",
+              width: "7.5%",
               display: { xs: "none", md: "flex" },
             }}
           ></Typography>
@@ -103,7 +103,7 @@ function ResponsiveAppBar() {
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "black", display: "block" }}
+                sx={{ my: 2, color: "#292b38", display: "block" }}
               >
                 {page}
               </Button>
@@ -111,7 +111,7 @@ function ResponsiveAppBar() {
           </Box>
         </Toolbar>
         <Box>
-            
+
         </Box>
       </Container>
     </AppBar>

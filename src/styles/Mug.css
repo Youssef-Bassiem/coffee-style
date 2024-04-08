@@ -1,0 +1,103 @@
+img:hover {
+  color: rgba(0, 0, 0, 0.236);
+
+}
+
+.mugImage {
+  position: relative;
+  width: 450px; 
+  height: 550px; 
+  object-fit: cover;
+}
+
+.image {
+  position: relative;
+}
+
+.overlay {
+  width: 450px; 
+  height: 550px; 
+  background: black;
+  overflow: hidden;
+}
+
+.mugImage:hover {
+  opacity: 0.8;
+}
+
+.image:hover > #explore { 
+  visibility: visible;
+}
+
+
+#onSale {
+  position: absolute;
+  top: 6%;
+  left: 87%;
+  width: 21%;
+  height: 8%;
+  color: #aa6f5f;
+  background-color:#ffffff;
+  border: none;
+  font-size: 82%;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  letter-spacing: 1.5px;
+  font-family: "Open Sans", sans-serif;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+}
+
+#explore {
+  visibility: hidden;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 50%;
+  width: 90%;
+  height: 10%;
+  background-color:#ffffff;
+  border: none;
+  color: #292b38;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  letter-spacing: 1.5px;
+  font-size: 70%;
+  font-family: "Open Sans", sans-serif;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.muglink {
+  display: block;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: #484a56;
+}
+
+.mug {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.basicPrice {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: inline;
+  color: #95979d;
+  font-size: 85%;
+}
+
+.salePrice {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 4px;
+  display: inline;
+  color: #b17968;
+}
+
