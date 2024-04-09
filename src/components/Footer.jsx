@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -7,22 +8,22 @@ const Footer = () => {
         <img src="./CoffeeStyle Logo.png" alt="Header-Pic" width={"100px"} />
         <ul>
           <li>
-            <a href="@">HOME</a>
+            <Link to="/">HOME</Link>
           </li>
           <li>
-            <a href="@">OUR PRODUCTS</a>
+            <Link to="/OurProducts">OUR PRODUCTS</Link>
           </li>
           <li>
-            <a href="@">BLOG</a>
+            <Link to="/Bolg">BLOG</Link>
           </li>
           <li>
-            <a href="@">ABOUT</a>
+            <Link to="/About">ABOUT</Link>
           </li>
           <li>
-            <a href="@">CONTACT</a>
+            <Link to="/Contact">CONTACT</Link>
           </li>
           <li>
-            <a href="@">STYLEGUIDE</a>
+            <Link to="/Styleguide">STYLEGUIDE</Link>
           </li>
         </ul>
         <p>We’re Always Happy to Help</p>

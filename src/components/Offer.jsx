@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/Offer.css";
 import "../styles/Content.css";
 import "../styles/FeaturedMugs.css";
-
 const Offer = () => {
   return (
     <div>
@@ -12,13 +11,17 @@ const Offer = () => {
           <p class="premiumOfferF">PREMIUM OFFER</p>
           <p class="premiumOfferS">Get our Coffee Magazine</p>
           <p class="premiumOfferT">
-            The most versatile furniture system ever created. <br /> Designed to fit your
-            life.
+            The most versatile furniture system ever created. <br /> Designed to
+            fit your life.
           </p>
           <button class="startButton">START SHOPPING</button>
         </div>
         <div class="leftSide">
-          <img class="leftSideImages sizeAndPosition" src="./Offer/Image3.jpg" alt="" />
+          <img
+            class="leftSideImages sizeAndPosition"
+            src="./Offer/Image3.jpg"
+            alt=""
+          />
           <div class="rightSideImages">
             <img class="size" src="./Offer/Image2.jpg" alt="" />
             <img class="size" src="./Offer/Image.jpg" alt="" />

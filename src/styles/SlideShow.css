@@ -1,0 +1,71 @@
+.slideContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.slide p,
+.slide h3,
+.slide h4 {
+    margin: 0;
+}
+
+.carousel.carousel-slider {
+    width: 60% !important;
+    margin: 0 auto;
+    overflow: visible;
+    padding-bottom: .6rem;
+}
+
+.carousel .control-next.control-arrow,
+.carousel .control-prev.control-arrow {
+    padding: 0;
+}
+
+.carousel .control-next.control-arrow:before,
+.carousel .control-prev.control-arrow:before {
+    position: absolute;
+    width: 15px;
+    top: 35%;
+    height: 25px;
+    background-size: 15px 25px !important;
+    border: none;
+}
+
+.carousel .control-next.control-arrow:before {
+    left: 20px;
+    background: url("../../public/Rightarrow.png") no-repeat transparent;
+
+}
+
+.carousel .control-prev.control-arrow:before {
+    right: 20px;
+    background: url("../../public/5be96251aaba7a50f0ecdfa4_Arrow.png") no-repeat scroll 0 0 transparent;
+}
+
+.slideImage {
+    width: 50% !important;
+    object-fit: cover;
+}
+
+.textOverlay {
+    text-align: left;
+    line-height: 2rem;
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.carousel .control-dots .dot {
+    background: #222;
+}
+
+.carousel .control-dots .dot.selected {
+    opacity: .7;
+}
+
+.slide {
+    padding-bottom: 2rem;
+    height: 28rem;
+}
