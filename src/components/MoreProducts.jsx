@@ -1,7 +1,7 @@
 import React from "react";
 import Mug from "./Mug";
 import "../styles/MoreProducts.css";
-
+import "../styles/Content.css";
 const mugsData = [
   {
     url: "./Mugs/trent-erwin.jpg",
@@ -64,7 +64,7 @@ const mugsData = [
 const MoreProducts = ({ display, data }) => {
   return (
     <div className="moreProductsSection">
-      {display && <p className="moreProductsTitle">MORE PRODUCTS</p>}
+      {display && <p className="third-para">MORE PRODUCTS</p>}
       <br />
       <div className="moreProducts">
         {(data || mugsData).map((element) => {

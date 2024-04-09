@@ -28,7 +28,6 @@ const SlideShow = () => {
       showThumbs={false}
       showStatus={false}
       infiniteLoop
-      centerSlidePercentage={100}
     >
       {data.map(({ url, title, subTitle, content, buttonText }) => (
         <div className="slideContainer" key={url}>

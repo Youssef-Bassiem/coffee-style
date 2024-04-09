@@ -29,18 +29,17 @@
     top: 35%;
     height: 25px;
     background-size: 15px 25px !important;
-
+    border: none;
 }
 
 .carousel .control-next.control-arrow:before {
-    left: 100%;
+    left: 20px;
     background: url("../../public/Rightarrow.png") no-repeat transparent;
 
 }
 
 .carousel .control-prev.control-arrow:before {
-    right: 100%;
-    /* margin-right: 15px; */
+    right: 20px;
     background: url("../../public/5be96251aaba7a50f0ecdfa4_Arrow.png") no-repeat scroll 0 0 transparent;
 }
 
