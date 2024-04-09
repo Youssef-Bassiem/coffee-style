@@ -1,1 +1,95 @@
-     
+.storiesTitle {
+  margin: 80px 0px 90px 0px;
+  font-size: 12px;
+  color: #6d7696;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+.storyContainer {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background: black;
+  overflow: hidden;
+}
+
+#storyButton {
+  position: absolute;
+  visibility: hidden;
+  top: auto;
+  bottom: 0%;
+  left: 50%;
+  width: 90%;
+  height: 15%;
+  background-color:#ffffff;
+  border: none;
+  color: #292b38;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  letter-spacing: 1.5px;
+  font-size: 70%;
+  font-family: "Open Sans", sans-serif;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.storyContainer:hover > #storyButton { 
+  visibility: visible;
+}
+
+.imageOfStories {
+  position: relative;
+  width: 300px; 
+  height: 300px; 
+  object-fit: cover;
+}
+
+.imageOfStories:hover {
+  opacity: 0.8;
+}
+
+.storyCard {
+  width: 300px;
+  text-align: left;
+}
+
+.storyLink {
+  text-align: left;
+  padding: 0px;
+  border: 0px;
+  background-color: #00000000;
+
+  color: #3c3e4b;
+  padding-top: 10%;
+  padding-bottom: 4%;
+  font-size: 105%;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  letter-spacing: 1.2px;
+  line-height: 32px;
+}
+
+.flexCards {
+  width: 100%;
+  margin-left: 18.8%;
+  margin-right: 18%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.date {
+  font-size: 12px;
+  color: #6d7696;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
